@@ -1,0 +1,56 @@
+{
+  "building": {
+    "name": "ATL",
+    "floors": [
+      {
+        "floor_number": 1,
+        "rooms": [
+          {
+            "id": "main_entrance",
+            "name": "Main Entrance"
+          },
+          {
+            "id": "seminar_hall",
+            "name": "Seminar Hall"
+          },
+          {
+            "id": "idea_labs",
+            "name": "Idea Labs"
+          }
+        ],
+        "connections": [
+          {
+            "from_id": "main_entrance",
+            "to_id": "seminar_hall",
+            "path": [
+              {
+                "direction": "straight",
+                "distance": 3,
+                "turn": "right"
+              },
+              {
+                "direction": "straight",
+                "distance": 4
+              }
+            ]
+          },
+          {
+            "from_id": "main_entrance",
+            "to_id": "idea_labs",
+            "path": [
+              {
+                "direction": "straight",
+                "distance": 3,
+                "turn": "left"
+              },
+              {
+                "direction": "straight",
+                "distance": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
