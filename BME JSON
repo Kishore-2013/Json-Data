@@ -26,12 +26,12 @@
             "name": "Project Lab"
           },
           {
-            "id": "bme_2nd_year_classroom",
-            "name": "BME 2nd Year Classroom"
+            "id": "2nd_year_classroom",
+            "name": "2nd Year Classroom"
           },
           {
             "id": "st_lab",
-            "name": "Sensors and Transducers Lab"
+            "name": "st Lab"
           },
           {
             "id": "bme_lab",
@@ -45,7 +45,8 @@
             "path": [
               {
                 "direction": "right",
-                "distance": 5
+                "distance": 5,
+                "To your": "left"
               }
             ]
           },
@@ -55,13 +56,10 @@
             "path": [
               {
                 "direction": "right",
-                "distance": 5
+                "distance": 7,
+                "To your": "left"
               },
-              {
-                "direction": "straight",
-                "distance": 2,
-                "turn": "left"
-              }
+              
             ]
           },
           {
@@ -70,17 +68,16 @@
             "path": [
               {
                 "direction": "right",
-                "distance": 5
+                "distance": 7,
+                "turn": "right"
               },
               {
                 "direction": "straight",
-                "distance": 2,
-                "turn": "left"
+                "distance": 12,
+                "To your": "left"
+                
               },
-              {
-                "direction": "right",
-                "distance": 12
-              }
+             
             ]
           },
           {
@@ -89,49 +86,33 @@
             "path": [
               {
                 "direction": "right",
-                "distance": 5
+                "distance": 7,
+                "turn": "right"
               },
               {
                 "direction": "straight",
-                "distance": 2,
-                "turn": "left"
+                "distance": 18,
+                "To your": "left"
+                
               },
-              {
-                "direction": "right",
-                "distance": 12
-              },
-              {
-                "direction": "straight",
-                "distance": 10
-              }
+              
+             
             ]
           },
           {
             "from_id": "staircase",
-            "to_id": "bme_2nd_year_classroom",
+            "to_id": "2nd_year_classroom",
             "path": [
               {
                 "direction": "right",
-                "distance": 5
-              },
-              {
-                "direction": "straight",
-                "distance": 2,
-                "turn": "left"
-              },
-              {
-                "direction": "right",
-                "distance": 12
-              },
-              {
-                "direction": "straight",
-                "distance": 10
-              },
-              {
-                "direction": "straight",
-                "distance": 4,
+                "distance": 7,
                 "turn": "right"
-              }
+              },
+              {
+                "direction": "straight",
+                "distance": 22,
+                "To your": "right"
+              },
             ]
           },
           {
@@ -140,26 +121,14 @@
             "path": [
               {
                 "direction": "right",
-                "distance": 5
+                "distance": 7,
+                "turn": "right"
               },
               {
                 "direction": "straight",
-                "distance": 2,
-                "turn": "left"
+                "distance": 23,
+                "To your": "left"
               },
-              {
-                "direction": "right",
-                "distance": 12
-              },
-              {
-                "direction": "straight",
-                "distance": 10
-              },
-              {
-                "direction": "straight",
-                "distance": 4,
-                "turn": "left"
-              }
             ]
           },
           {
@@ -174,7 +143,7 @@
               {
                 "direction": "straight",
                 "distance": 12,
-                "turn": "right"
+                "To your": "right"
               }
             ]
           }
