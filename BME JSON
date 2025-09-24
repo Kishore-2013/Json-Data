@@ -26,11 +26,11 @@
             "name": "Project Lab"
           },
           {
-            "id": "2nd year classroom",
-            "name": "2nd BME Classroom"
+            "id": "bme_2nd_year_classroom",
+            "name": "BME 2nd Year Classroom"
           },
           {
-            "id": "sensors_lab",
+            "id": "st_lab",
             "name": "Sensors and Transducers Lab"
           },
           {
@@ -45,8 +45,7 @@
             "path": [
               {
                 "direction": "right",
-                "distance": 5,
-                "turn": "left"
+                "distance": 5
               }
             ]
           },
@@ -56,8 +55,7 @@
             "path": [
               {
                 "direction": "right",
-                "distance": 5,
-                "turn": "left"
+                "distance": 5
               },
               {
                 "direction": "straight",
@@ -72,8 +70,7 @@
             "path": [
               {
                 "direction": "right",
-                "distance": 5,
-                "turn": "left"
+                "distance": 5
               },
               {
                 "direction": "straight",
@@ -82,8 +79,7 @@
               },
               {
                 "direction": "right",
-                "distance": 12,
-                "turn": "left"
+                "distance": 12
               }
             ]
           },
@@ -93,8 +89,7 @@
             "path": [
               {
                 "direction": "right",
-                "distance": 5,
-                "turn": "left"
+                "distance": 5
               },
               {
                 "direction": "straight",
@@ -103,24 +98,21 @@
               },
               {
                 "direction": "right",
-                "distance": 12,
-                "turn": "left"
+                "distance": 12
               },
               {
                 "direction": "straight",
-                "distance": 10,
-                "turn": "left"
+                "distance": 10
               }
             ]
           },
           {
             "from_id": "staircase",
-            "to_id": "2nd year classroom",
+            "to_id": "bme_2nd_year_classroom",
             "path": [
               {
                 "direction": "right",
-                "distance": 5,
-                "turn": "left"
+                "distance": 5
               },
               {
                 "direction": "straight",
@@ -129,28 +121,26 @@
               },
               {
                 "direction": "right",
-                "distance": 12,
-                "turn": "left"
+                "distance": 12
               },
               {
                 "direction": "straight",
-                "distance": 10,
+                "distance": 10
+              },
+              {
+                "direction": "straight",
+                "distance": 4,
                 "turn": "right"
-              },
-              {
-                "direction": "straight",
-                "distance": 4
               }
             ]
           },
           {
             "from_id": "staircase",
-            "to_id": "sensors_lab",
+            "to_id": "st_lab",
             "path": [
               {
                 "direction": "right",
-                "distance": 5,
-                "turn": "left"
+                "distance": 5
               },
               {
                 "direction": "straight",
@@ -159,13 +149,11 @@
               },
               {
                 "direction": "right",
-                "distance": 12,
-                "turn": "left"
+                "distance": 12
               },
               {
                 "direction": "straight",
-                "distance": 10,
-                "turn": "left"
+                "distance": 10
               },
               {
                 "direction": "straight",
