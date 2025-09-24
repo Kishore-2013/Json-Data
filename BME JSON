@@ -58,7 +58,7 @@
                 "direction": "right",
                 "distance": 7,
                 "To your": "left"
-              },
+              }
             ]
           },
           {
@@ -74,8 +74,7 @@
                 "direction": "straight",
                 "distance": 12,
                 "To your": "left"
-                
-              },
+              }
             ]
           },
           {
@@ -91,8 +90,7 @@
                 "direction": "straight",
                 "distance": 18,
                 "To your": "left"
-                
-              },
+              }
             ]
           },
           {
@@ -108,7 +106,7 @@
                 "direction": "straight",
                 "distance": 22,
                 "To your": "right"
-              },
+              }
             ]
           },
           {
@@ -124,7 +122,7 @@
                 "direction": "straight",
                 "distance": 23,
                 "To your": "left"
-              },
+              }
             ]
           },
           {
