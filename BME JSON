@@ -26,8 +26,8 @@
             "name": "Project Lab"
           },
           {
-            "id": "btech_2nd_year_classroom",
-            "name": "2nd BTech BME Classroom"
+            "id": "2nd year classroom",
+            "name": "2nd BME Classroom"
           },
           {
             "id": "sensors_lab",
@@ -51,9 +51,14 @@
             ]
           },
           {
-            "from_id": "simulation_lab",
+            "from_id": "staircase",
             "to_id": "staff_room",
             "path": [
+              {
+                "direction": "right",
+                "distance": 5,
+                "turn": "left"
+              },
               {
                 "direction": "straight",
                 "distance": 2,
@@ -62,9 +67,19 @@
             ]
           },
           {
-            "from_id": "staff_room",
+            "from_id": "staircase",
             "to_id": "ap_lab",
             "path": [
+              {
+                "direction": "right",
+                "distance": 5,
+                "turn": "left"
+              },
+              {
+                "direction": "straight",
+                "distance": 2,
+                "turn": "left"
+              },
               {
                 "direction": "right",
                 "distance": 12,
@@ -73,9 +88,24 @@
             ]
           },
           {
-            "from_id": "ap_lab",
+            "from_id": "staircase",
             "to_id": "project_lab",
             "path": [
+              {
+                "direction": "right",
+                "distance": 5,
+                "turn": "left"
+              },
+              {
+                "direction": "straight",
+                "distance": 2,
+                "turn": "left"
+              },
+              {
+                "direction": "right",
+                "distance": 12,
+                "turn": "left"
+              },
               {
                 "direction": "straight",
                 "distance": 10,
@@ -84,20 +114,59 @@
             ]
           },
           {
-            "from_id": "project_lab",
-            "to_id": "btech_2nd_year_classroom",
+            "from_id": "staircase",
+            "to_id": "2nd year classroom",
             "path": [
               {
+                "direction": "right",
+                "distance": 5,
+                "turn": "left"
+              },
+              {
                 "direction": "straight",
-                "distance": 4,
+                "distance": 2,
+                "turn": "left"
+              },
+              {
+                "direction": "right",
+                "distance": 12,
+                "turn": "left"
+              },
+              {
+                "direction": "straight",
+                "distance": 10,
                 "turn": "right"
+              },
+              {
+                "direction": "straight",
+                "distance": 4
               }
             ]
           },
           {
-            "from_id": "project_lab",
+            "from_id": "staircase",
             "to_id": "sensors_lab",
             "path": [
+              {
+                "direction": "right",
+                "distance": 5,
+                "turn": "left"
+              },
+              {
+                "direction": "straight",
+                "distance": 2,
+                "turn": "left"
+              },
+              {
+                "direction": "right",
+                "distance": 12,
+                "turn": "left"
+              },
+              {
+                "direction": "straight",
+                "distance": 10,
+                "turn": "left"
+              },
               {
                 "direction": "straight",
                 "distance": 4,
