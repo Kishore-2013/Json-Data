@@ -1,0 +1,128 @@
+{
+  "building": {
+    "name": "VISVESVARAYA",
+    "floors": [
+      {
+        "floor_number": 2,
+        "rooms": [
+          {
+            "id": "staircase",
+            "name": "Staircase"
+          },
+          {
+            "id": "simulation_lab",
+            "name": "Simulation Lab"
+          },
+          {
+            "id": "staff_room",
+            "name": "Staff Room"
+          },
+          {
+            "id": "ap_lab",
+            "name": "AP Lab"
+          },
+          {
+            "id": "project_lab",
+            "name": "Project Lab"
+          },
+          {
+            "id": "btech_2nd_year_classroom",
+            "name": "2nd BTech BME Classroom"
+          },
+          {
+            "id": "sensors_lab",
+            "name": "Sensors and Transducers Lab"
+          },
+          {
+            "id": "bme_lab",
+            "name": "BME Lab"
+          }
+        ],
+        "connections": [
+          {
+            "from_id": "staircase",
+            "to_id": "simulation_lab",
+            "path": [
+              {
+                "direction": "right",
+                "distance": 5,
+                "turn": "left"
+              }
+            ]
+          },
+          {
+            "from_id": "simulation_lab",
+            "to_id": "staff_room",
+            "path": [
+              {
+                "direction": "straight",
+                "distance": 2,
+                "turn": "left"
+              }
+            ]
+          },
+          {
+            "from_id": "staff_room",
+            "to_id": "ap_lab",
+            "path": [
+              {
+                "direction": "right",
+                "distance": 12,
+                "turn": "left"
+              }
+            ]
+          },
+          {
+            "from_id": "ap_lab",
+            "to_id": "project_lab",
+            "path": [
+              {
+                "direction": "straight",
+                "distance": 10,
+                "turn": "left"
+              }
+            ]
+          },
+          {
+            "from_id": "project_lab",
+            "to_id": "btech_2nd_year_classroom",
+            "path": [
+              {
+                "direction": "straight",
+                "distance": 4,
+                "turn": "right"
+              }
+            ]
+          },
+          {
+            "from_id": "project_lab",
+            "to_id": "sensors_lab",
+            "path": [
+              {
+                "direction": "straight",
+                "distance": 4,
+                "turn": "left"
+              }
+            ]
+          },
+          {
+            "from_id": "staircase",
+            "to_id": "bme_lab",
+            "path": [
+              {
+                "direction": "left",
+                "distance": 3,
+                "turn": "left"
+              },
+              {
+                "direction": "straight",
+                "distance": 12,
+                "turn": "right"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
