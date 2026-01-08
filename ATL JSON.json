@@ -4,50 +4,43 @@
     "floors": [
       {
         "floor_number": 1,
-        "rooms": [
+        "nodes": [
           {
             "id": "main_entrance",
-            "name": "Main Entrance"
+            "name": "Main Entrance",
+            "position": [0, 0]
+          },
+          {
+            "id": "junction_1",
+            "name": "Hallway Junction",
+            "position": [0, 3]
           },
           {
             "id": "seminar_hall",
-            "name": "Seminar Hall"
+            "name": "Seminar Hall",
+            "position": [4, 3]
           },
           {
             "id": "idea_labs",
-            "name": "Idea Labs"
+            "name": "Idea Labs",
+            "position": [-2, 3]
           }
         ],
-        "connections": [
+        "edges": [
           {
             "from_id": "main_entrance",
-            "to_id": "seminar_hall",
-            "path": [
-              {
-                "direction": "straight",
-                "distance": 3,
-                "turn": "right"
-              },
-              {
-                "direction": "straight",
-                "distance": 4
-              }
-            ]
+            "to_id": "junction_1",
+            "distance": 3
           },
           {
-            "from_id": "main_entrance",
+            "from_id": "junction_1",
+            "to_id": "seminar_hall",
+            "distance": 4
+          },
+          {
+            "from_id": "junction_1",
             "to_id": "idea_labs",
-            "path": [
-              {
-                "direction": "straight",
-                "distance": 3,
-                "turn": "left"
-              },
-              {
-                "direction": "straight",
-                "distance": 2
-              }
-            ]
+            "distance": 2
           }
         ]
       }
